@@ -1,0 +1,14 @@
+body {
+	background: #000;
+	overflow: hidden;
+}
+canvas {
+  background: #000;
+	display: block;
+}
+#starsCanvas,#draw{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  display: block;
+}

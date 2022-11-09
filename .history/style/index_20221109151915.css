@@ -1,0 +1,29 @@
+body {
+	background: #000;
+	overflow: hidden;
+}
+canvas {
+  background: #000;
+	display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#starsCanvas,#draw{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.goTop{
+  z-index: 100;
+  background:transparent;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 60;
+  right: 0;
+  margin: auto;
+  margin-left: 60;
+  display: block;
+}
